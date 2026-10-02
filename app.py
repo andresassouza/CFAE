@@ -123,7 +123,7 @@ if uploaded_file:
                 )
 
             else:
-
+                st.info(f"{len(values_to_generate)} arquivo(s) serão gerados.")
                 zip_path = generate_filtered_files(
                     source_file=temp_path,
                     sheet_name=selected_sheet,
